@@ -1,0 +1,52 @@
+{
+    "toys": [
+      {
+        "id": 1,
+        "name": "Matar Paneer",
+        "image": "",
+        "likes": 8
+      },
+      {
+        "id": 2,
+        "name": "Paneer Butter Masala",
+        "image": "",
+        "likes": 14
+      },
+      {
+        "id": 3,
+        "name": "Paneer Tikka Masala",
+        "image": "",
+        "likes": 3
+      },
+      {
+        "id": 4,
+        "name": "Channa Masala",
+        "image": "",
+        "likes": 4
+      },
+      {
+        "id": 5,
+        "name": "Bhindi Masala",
+        "image": "",
+        "likes": 1
+      },
+      {
+        "id": 6,
+        "name": "Crispy Potatoes",
+        "image": "",
+        "likes": 2
+      },
+      {
+        "id": 7,
+        "name": "Bhindi Do Pyaza",
+        "image": "",
+        "likes": 0
+      },
+      {
+        "id": 8,
+        "name": "Malai Kofta",
+        "image": "",
+        "likes": -2
+      }
+    ]
+  }
