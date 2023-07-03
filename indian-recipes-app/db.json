@@ -1,52 +1,60 @@
 {
-    "toys": [
+    "recipes": [
       {
         "id": 1,
         "name": "Matar Paneer",
-        "image": "",
-        "likes": 8
+        "image": "https://spicecravings.com/wp-content/uploads/2020/08/Matar-Paneer-2.jpg",
+        "short": "Savory Paneer (Indian cottage cheese) with Green peas",
+        "details": "Matar paneer recipe is a popular Indian Curry dish made with green peas and Paneer (Indian cottage cheese) in a base of onions, tomatoes, cashews, spices and herbs. The recipe hails from the versatile Northern Indian cuisine that has many different (and delicious) variations."
       },
       {
         "id": 2,
         "name": "Paneer Butter Masala",
-        "image": "",
-        "likes": 14
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1-1152x1536.jpg",
+        "short": "Creamy Paneer (Indian cottage cheese) with loads of Butter",
+        "details": "Paneer Butter Masala is one of India’s most popular paneer gravy recipes, and with good reason! Indian cottage cheese cubes are smothered in a creamy, lightly spiced tomato sauce that is downright delicious."
       },
       {
         "id": 3,
         "name": "Paneer Tikka Masala",
-        "image": "",
-        "likes": 3
+        "image": "https://s3.amazonaws.com/static.realcaliforniamilk.com/media/recipes_2/paneer-tikka-masala.jpg",
+        "short": "Spicy Paneer (Indian Cottage cheese) roasted in a clay Oven",
+        "details": "This restaurant style Paneer Tikka Masala recipe is brimming with bright flavors from the spiced and creamy tomato onion curry gravy/sauce and delightfully marinated grilled cottage cheese. While this dish may be considered a labor of love, the time and effort are well worth it!"
       },
       {
         "id": 4,
-        "name": "Channa Masala",
-        "image": "",
-        "likes": 4
+        "name": "Chana Masala",
+        "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/07/chana-masala-1-1024x1536.jpg",
+        "short": "Chicpeas in a spicy gravy",
+        "details": "This Chana Masala, also known as Chole Masala, is an authentic North Indian style curry made with white chickpeas, freshly powdered spices, onions, tomatoes and herbs. Naturally vegan and packed with healthy minerals, protein and fiber, this delicious vegetarian meal can be ready in just 45 minutes minus the soaking time of chickpeas."
       },
       {
         "id": 5,
         "name": "Bhindi Masala",
-        "image": "",
-        "likes": 1
+        "image": "https://www.cookoverheels.com/wp-content/uploads/2020/01/Dry-Bhindi-Masala-with-Roti-811x1024.jpg",
+        "short": "Spicy and savory Okra",
+        "details": "If there’s one classic bhindi (okra) dish with North Indian flavors, it is the Bhindi Masala. This is a semi-dry preparation featuring the star ingredient okra pods (bhindi in Hindi), piquant onions, tangy tomatoes, bold Indian spices and herbs. It is one of the most popular dishes served in almost all restaurants too, of North India."
       },
       {
         "id": 6,
         "name": "Crispy Potatoes",
-        "image": "",
-        "likes": 2
+        "image": "https://www.indianveggiedelight.com/wp-content/uploads/2021/08/air-fryer-roasted-potatoes.jpg",
+        "ingredients": "Pan fried spicy potatoes",
+        "details": "Bombay potatoes are a quick Indian spiced potatoes recipe (dry curry) made with potatoes, turmeric, cumin, and red chili powder. They are crispy on the outside, soft on the inside, and come together in thirty minutes. They're vegan, gluten-free and a great go-to side dish!"
       },
       {
         "id": 7,
         "name": "Bhindi Do Pyaza",
-        "image": "",
-        "likes": 0
+        "image": "https://shwetainthekitchen.com/wp-content/uploads/2022/03/recipe-of-bhindi-do-pyaza.jpg",
+        "ingredients": "Okra with loads of Onion",
+        "details": "This Bhindi Do Pyaza is a simple family recipe packed with lot of flavors. It includes lots of okra sautéed with fragrant onions and seasonings, but is mild enough to be kid-friendly and perfect to pair with nearly any main dish. Try this Bhindi Do Pyaza recipe for a vegan and gluten-free side dish that’s sure to please the entire family."
       },
       {
         "id": 8,
         "name": "Malai Kofta",
-        "image": "",
-        "likes": -2
+        "image": "https://jessicainthekitchen.com/wp-content/uploads/2023/03/vegan-malai-kofta-20.jpg",
+        "ingredients": "Creamy and deep fried veggie balls in a rich gravy",
+        "details": "Malai Kofta is a delicious dish of fried balls of potato and paneer in a rich and creamy mild gravy made with sweet onions and tomatoes. This melt-in-your-mouth recipe is a labor of love, but one that is well worth it."
       }
     ]
   }
