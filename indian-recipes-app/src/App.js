@@ -2,7 +2,7 @@
 import './App.css';
 import RecipeList from './RecipeList';
 import RecipeDetails from './RecipeDetails';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -11,8 +11,10 @@ function App() {
           <p>
             Let's go.
           </p>
-          <RecipeDetails />
           <RecipeList />
+          <Routes>
+            <Route exact path="/:id" Component={RecipeDetails}/>
+          </Routes>
       </div>
     </Router>
   );
