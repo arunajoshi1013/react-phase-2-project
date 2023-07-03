@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-          <p>
-            Let's go.
-          </p>
+          <h1>
+            Indian Recipes
+          </h1>
           <RecipeList />
           <Routes>
             <Route exact path="/:id" Component={RecipeDetails}/>

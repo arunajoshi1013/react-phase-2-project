@@ -9,12 +9,12 @@ function RecipeDetails() {
 
   return (
     <RecipeStyle>
-        <h1>{globalRecipes.allRecipes[id - 1]}</h1>
+        <h1> RecipeDetails go here </h1>
     </RecipeStyle>
   )
 }
 
-export default RecipeDetails
+export default RecipeDetails;
 
 const RecipeStyle = styled.div`
     background: white;
