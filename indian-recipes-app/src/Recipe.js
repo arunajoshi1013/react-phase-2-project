@@ -13,7 +13,7 @@ function Recipe({ recipe }) {
 export default Recipe;
 
 export const Card = styled.img`
-    float: left;
+    float: center;
     width:  500px;
     height: 500px;
     object-fit: cover;
