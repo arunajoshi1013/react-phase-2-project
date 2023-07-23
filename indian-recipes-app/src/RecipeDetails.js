@@ -20,7 +20,7 @@ function RecipeDetails() {
 
   return (
     <RecipeStyle>
-        <h1> RecipeDetails go here </h1>
+        <p> {recDetails.details} </p>
     </RecipeStyle>
   )
 }
