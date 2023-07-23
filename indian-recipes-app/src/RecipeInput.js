@@ -22,6 +22,20 @@ function RecipeInput() {
         e.preventDefault()
         const db_fetch = await fetch(`http://localhost:3002/recipes`);
         const recipes = await db_fetch.json();
+
+        const response = await fetch(`http://localhost:3002/recipes`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                "id": recipes.length + 1,
+                "name": state.name,
+                "image": state.url,
+                "ingredients": state.desc,
+                "details": state.detail
+            })
+        })
     };
 
   return (
