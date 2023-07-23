@@ -9,6 +9,16 @@ function App() {
       <h1>
         Aruna Joshi's collection of Indian recipes
       </h1>
+      <BrowserRouter>
+        <nav>
+          <Link style={{ margin: 10 }} to="/new">
+            Add a new Recipe
+          </Link>
+          <Link to="/">
+            List of recipes
+          </Link>
+        </nav>
+      </BrowserRouter>
     </div>
   );
 }
