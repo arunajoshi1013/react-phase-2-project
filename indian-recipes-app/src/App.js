@@ -18,6 +18,12 @@ function App() {
             List of recipes
           </Link>
         </nav>
+        <Routes>
+          <Route path="/" element={
+            <RecipeList />
+          }
+          />
+        </Routes>
       </BrowserRouter>
     </div>
   );
