@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Recipe from './Recipe';
-import globalRecipes from './globalRecipes';
 
 function RecipeList() {
 
@@ -15,9 +14,6 @@ function RecipeList() {
         const recipes = await db_fetch.json();
         setRecipe(recipes);
     }
-
-    globalRecipes.allRecipes = thisRecipe;
-    console.log(globalRecipes.allRecipes);
 
   return (
     <div>
