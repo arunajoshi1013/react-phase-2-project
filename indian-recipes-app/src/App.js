@@ -19,6 +19,10 @@ function App() {
           </Link>
         </nav>
         <Routes>
+          <Route exact path="/:id" element={
+              <RecipeDetails />
+            }
+          />
           <Route path="/" element={
             <RecipeList />
           }
