@@ -1,6 +1,7 @@
 import './App.css';
 import RecipeList from './RecipeList';
 import RecipeDetails from './RecipeDetails';
+import RecipeInput from './RecipeInput';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 
 function App() {
@@ -19,6 +20,10 @@ function App() {
           </Link>
         </nav>
         <Routes>
+        <Route exact path="/new" element={
+              <RecipeInput/>
+            }
+          />
           <Route exact path="/:id" element={
               <RecipeDetails />
             }
