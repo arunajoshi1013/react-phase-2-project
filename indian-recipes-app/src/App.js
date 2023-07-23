@@ -5,17 +5,11 @@ import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-          <h1>
-            Indian Recipes
-          </h1>
-          <RecipeList />
-          <Routes>
-            <Route exact path="/:id" Component={RecipeDetails}/>
-          </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <h1>
+        Aruna Joshi's collection of Indian recipes
+      </h1>
+    </div>
   );
 }
 
