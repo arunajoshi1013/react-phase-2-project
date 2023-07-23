@@ -8,6 +8,16 @@ function RecipeDetails() {
     let { id } = useParams();
     const [ recDetails, setRecDetails ] = useState([]);
 
+    useEffect(() => {
+        getRecipe(id);
+    }, [id]);
+
+    const getRecipe = async () => {
+        const recipeFetch = await fetch(`http://localhost:3002/recipes/${id}`);
+        const recipe = await recipeFetch.json();
+        setRecDetails(recipe);
+    }
+
   return (
     <RecipeStyle>
         <h1> RecipeDetails go here </h1>
