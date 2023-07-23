@@ -18,6 +18,12 @@ function RecipeInput() {
         })
     };
 
+    const submit = async (e) => {
+        e.preventDefault()
+        const db_fetch = await fetch(`http://localhost:3002/recipes`);
+        const recipes = await db_fetch.json();
+    };
+
   return (
     <form onSubmit={submit}>
         <label htmlFor="name"> Name </label>
