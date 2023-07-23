@@ -1,8 +1,7 @@
-//import logo from './logo.svg';
 import './App.css';
 import RecipeList from './RecipeList';
 import RecipeDetails from './RecipeDetails';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 
 function App() {
   return (
