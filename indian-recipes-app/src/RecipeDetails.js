@@ -1,11 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import globalRecipes from './globalRecipes';
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 
 function RecipeDetails() {
     let { id } = useParams();
+    const [ recDetails, setRecDetails ] = useState([]);
 
   return (
     <RecipeStyle>
