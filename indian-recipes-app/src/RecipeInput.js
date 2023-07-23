@@ -1,4 +1,14 @@
+import React, { useState } from 'react';
+
 function RecipeInput() {
+
+    const [ state, setState ] = useState({
+        name: '',
+        url: '',
+        desc: '',
+        detail: ''
+    })
+
   return (
     <form onSubmit={submit}>
         <label htmlFor="name"> Name </label>
