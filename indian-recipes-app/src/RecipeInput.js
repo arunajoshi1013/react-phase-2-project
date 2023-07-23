@@ -9,6 +9,15 @@ function RecipeInput() {
         detail: ''
     })
 
+    const update = (e) => {
+        const target = e.currentTarget
+
+        setState({
+            ...state,
+            [target.name]: target.value
+        })
+    };
+
   return (
     <form onSubmit={submit}>
         <label htmlFor="name"> Name </label>
